@@ -11,11 +11,11 @@ export const Form = ({ handleSubmit }) => {
   }
 
   return (
-    <div className='flex bg-slate-700 w-96 h-8 rounded-2xl justify-center items-center gap-4'>
+    <div className='flex bg-[#798777] dark:bg-[#393E46] w-96 h-8 rounded-2xl justify-center items-center gap-4'>
       <BsSearch className='text-white' />
       <form className='' onSubmit={handleOnSubmit}>
         <input
-          className='w-80 bg-slate-700 outline-none border-none text-white'
+          className='w-80 bg-[#798777] dark:bg-[#393E46] outline-none text-white'
           placeholder='Enter a coin here...'
           type='text'
           value={coinName}

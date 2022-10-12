@@ -10,7 +10,6 @@ export const ListCoins = () => {
 
   useEffect(() => {
     axios.get(URL_API).then((res) => {
-      console.log(coins)
       setCoins(res.data)
     })
   }, [])
